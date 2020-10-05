@@ -1,3 +1,3 @@
 # BlogApp
-simple blog app
-usingpython/django
+simple blog app//
+using nodejs/express
