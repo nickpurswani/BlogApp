@@ -32,11 +32,7 @@ var blogSchema = new mongoose.Schema({
             {type:Date , default: Date.now}
 });
 var Blog = mongoose.model("Blog",blogSchema);
-// Blog.create({
-// title: "this is campground",
-// image: "https://images.unsplash.com/photo-1517824806704-9040b037703b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-// body: "wala wala campground main wala"
-// });
+
 //routes
 app.get("/",function(req , res){
 res.redirect("/blogs");
